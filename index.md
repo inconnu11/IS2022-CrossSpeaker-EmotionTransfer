@@ -1,37 +1,48 @@
-## Welcome to GitHub Pages
+## Cross-speaker Emotion Transfer based on Content-perception and Emotion-Cluster
 
-You can use the [editor on GitHub](https://github.com/inconnu11/IS2022-CrossSpeaker-EmotionTransfer/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### ABSTRACT
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
 Syntax highlighted code block
 
-# Header 1
-## Header 2
+# Architecture
+
+
+
+
+
+# Parallel Emotion Transfer
+<!-- ## Header 2
 ### Header 3
 
 - Bulleted
 - List
 
 1. Numbered
-2. List
+2. List -->
 
-**Bold** and _Italic_ and `Code` text
+# Cross-speaker Emotion Transfer
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+| No        | Text       | Reference Audio | Target Timbre        | Baseline | Proposed         |
+|:----------|:---------------------------|:------|:------|:----------------------------|:-----------------------------|
+| 1         | ![007027_label](assets/images/007027_label.jpg) | <audio controls><source src="assets/audios/007027_label.wav" type="audio/wav">Your browser does not support the audio element.</audio>  | ![007027_no](assets/images/007027_no.jpg) | <audio controls><source src="assets/audios/007027_no.wav" type="audio/wav">Your browser does not support the audio element.</audio>  | ![007027_pred](assets/images/007027_pred.jpg) | <audio controls><source src="assets/audios/007027_pred.wav" type="audio/wav">Your browser does not support the audio element.</audio>  |
+| 2         | ![015039_label](assets/images/015039_label.jpg) | <audio controls><source src="assets/audios/015039_label.wav" type="audio/wav">Your browser does not support the audio element.</audio>  | ![015039_no](assets/images/015039_no.jpg) | <audio controls><source src="assets/audios/015039_no.wav" type="audio/wav">Your browser does not support the audio element.</audio>  | ![015039_pred](assets/images/015039_pred.jpg) | <audio controls><source src="assets/audios/015039_pred.wav" type="audio/wav">Your browser does not support the audio element.</audio>  |
+| 3         | ![077023_label](assets/images/077023_label.jpg) | <audio controls><source src="assets/audios/077023_label.wav" type="audio/wav">Your browser does not support the audio element.</audio>  | ![077023_no](assets/images/077023_no.jpg) | <audio controls><source src="assets/audios/077023_no.wav" type="audio/wav">Your browser does not support the audio element.</audio>  | ![077023_pred](assets/images/077023_pred.jpg) | <audio controls><source src="assets/audios/077023_pred.wav" type="audio/wav">Your browser does not support the audio element.</audio>  |
+| 4         | ![095020_label](assets/images/095020_label.jpg) | <audio controls><source src="assets/audios/095020_label.wav" type="audio/wav">Your browser does not support the audio element.</audio>  | ![095020_no](assets/images/095020_no.jpg) | <audio controls><source src="assets/audios/095020_no.wav" type="audio/wav">Your browser does not support the audio element.</audio>  | ![095020_pred](assets/images/095020_pred.jpg) | <audio controls><source src="assets/audios/095020_pred.wav" type="audio/wav">Your browser does not support the audio element.</audio>  |
+| 5         | ![187001_label](assets/images/187001_label.jpg) | <audio controls><source src="assets/audios/187001_label.wav" type="audio/wav">Your browser does not support the audio element.</audio>  | ![187001_no](assets/images/187001_no.jpg) | <audio controls><source src="assets/audios/187001_no.wav" type="audio/wav">Your browser does not support the audio element.</audio>  | ![187001_pred](assets/images/187001_pred.jpg) | <audio controls><source src="assets/audios/187001_pred.wav" type="audio/wav">Your browser does not support the audio element.</audio>  |
+| 6         | ![242023_label](assets/images/242023_label.jpg) | <audio controls><source src="assets/audios/242023_label.wav" type="audio/wav">Your browser does not support the audio element.</audio>  | ![242023_no](assets/images/242023_no.jpg) | <audio controls><source src="assets/audios/242023_no.wav" type="audio/wav">Your browser does not support the audio element.</audio>  | ![242023_pred](assets/images/242023_pred.jpg) | <audio controls><source src="assets/audios/242023_pred.wav" type="audio/wav">Your browser does not support the audio element.</audio>  |
+| 7         | ![059004_label](assets/images/059004_label.jpg) | <audio controls><source src="assets/audios/059004_label.wav" type="audio/wav">Your browser does not support the audio element.</audio>  | ![059004_no](assets/images/059004_no.jpg) | <audio controls><source src="assets/audios/059004_no.wav" type="audio/wav">Your browser does not support the audio element.</audio>  | ![059004_pred](assets/images/059004_pred.jpg) | <audio controls><source src="assets/audios/059004_pred.wav" type="audio/wav">Your browser does not support the audio element.</audio>  |
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/inconnu11/IS2022-CrossSpeaker-EmotionTransfer/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+# Ablation Study
+
+
+
+
